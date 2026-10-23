@@ -1,0 +1,5 @@
+# Only public/ is served; keep the design source and tooling out of the upload.
+CK Luxury MPV Penang.html
+build/
+.claude/
+README.md

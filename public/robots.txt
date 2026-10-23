@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ck-luxury-mpv-penang.pages.dev/sitemap.xml

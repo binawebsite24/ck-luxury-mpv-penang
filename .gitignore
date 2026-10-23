@@ -1,0 +1,8 @@
+*.pyc
+.DS_Store
+.env*
+.vercel
+.wrangler/
+__pycache__/
+node_modules/
+build/latin-fonts.json

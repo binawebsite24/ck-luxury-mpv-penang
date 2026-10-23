@@ -1,0 +1,12 @@
+SEND THIS TO CLIENTS
+    https://ck-luxury-mpv-penang.pages.dev/
+
+IF WHATSAPP SHOWS AN OLD PREVIEW, SEND THIS ONCE INSTEAD
+    https://ck-luxury-mpv-penang.pages.dev/?v=122b89a9
+
+WhatsApp caches a link preview for about a week with no way to purge it.
+The ?v= value is the share card's content hash, so that is a URL WhatsApp
+has not cached and it fetches the new preview. The site ignores the
+parameter, and canonical/og:url stay on the bare address for search.
+
+Rebuild with: python3 build/build.py
